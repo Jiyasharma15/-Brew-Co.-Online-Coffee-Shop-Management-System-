@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    background-color: #EADDCA;
+    margin: 1px;
+    color: white;
+    
+}
+
+header {
+    background-color: #AF8F6F;
+    text-align: center;
+    color: white;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    line-height: 0.3;
+}
+
+nav a {
+    line-height: 2.9;
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+section {
+    font-family: Georgia, serif;
+    margin: 0.5px;
+    padding: 295px;
+    background-color: white;
+    border-radius: 0px;
+    background-image: url("https://images.pexels.com/photos/683039/pexels-photo-683039.jpeg?cs=srgb&dl=pexels-apgpotr-683039.jpg&fm=jpg");
+    background-size:cover;
+    image-rendering: optimizeQuality;
+    color: white;
+    font-size: 21px;
+
+}
+
+footer {
+    background-color: #AF8F6F;
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+}

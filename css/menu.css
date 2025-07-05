@@ -1,0 +1,99 @@
+body {
+    text-align: center;
+    background-color: #EADDCA;
+    margin: 1px;
+    color: white;
+}
+
+header {
+    background-color: #AF8F6F;
+    text-align: center;
+    color: white;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    line-height: 0.3;
+}
+
+nav a {
+    line-height: 2.9;
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+section {
+    font-family: Georgia, serif;
+    background-color: black;
+    border-radius: 5px;
+    background-image: url(https://i.pinimg.com/736x/a5/66/44/a5664499f471d5ffea014995dd2abe90.jpg);
+    background-size: cover;
+    font-size: 26px;
+    color: saddlebrown;
+    padding: 20px;
+    height: 1050px;
+}
+
+.menu-header{
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: serif;
+}
+
+.menu-table {
+    width: 35%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: black;
+    font-size: 24px;
+    border-radius: 15px;
+    margin: 50px auto 40px auto;
+}
+
+.menu-table + .menu-table {
+    margin-top: 60px; 
+}
+
+.menu-table th {
+    background-color: #AF8B6C;
+    color: white;
+    padding: 14px;
+    font-size: 28px;
+    border-radius: 10px 10px 0 0;
+}
+
+.menu-table td {
+    padding: 15px;
+    text-align: left;
+    font-size: 22px;
+}
+
+.item-name{
+    text-align: center;
+    padding-left: 20px;
+}
+
+.item-price {
+    width: 10%;
+    text-align: right;
+    padding-right: 20px;
+    font-weight: normal;
+}
+
+.quantity-input {
+    width: 50px;
+    text-align: right;
+}
+
+.submit{
+    text-align: right;
+}
+
+
+footer {
+    background-color: #AF8F6F;
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+}

@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url(https://i.pinimg.com/736x/4a/69/ca/4a69ca53bba24b76636eca39f6869dbe.jpg);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 40px;
+    width: 490px;
+    text-align: center;
+    box-shadow: 0 1px 11px rgba(0, 0, 0, 0.3);
+}
+
+/* Form Elements */
+
+h2 {
+    color: black;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    font-size: 16px;
+    color: #333;
+    text-align: left;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+input::placeholder {
+    color: black;
+}
+
+/* Button Style */
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 30px;
+    background: #ff6600;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+
+/* Error Message */
+.error {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-top: 15px;
+    color: black;
+}
+
+a {
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline;
+}

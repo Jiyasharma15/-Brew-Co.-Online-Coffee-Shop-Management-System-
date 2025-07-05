@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    background-color: #AF8F6F;
+    margin: 1px;
+    color: white;
+    font-family: Georgia, serif;
+    line-height: 0.5;
+    font-size: 15px;
+}
+
+header {
+    background-color: #AF8F6F;
+    text-align: center;
+    color: white;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    line-height: 0.2;
+}
+
+nav a {
+    line-height: 2.9;
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+section{
+    font-family: Georgia, serif;
+    margin: 1px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 21px ;
+    background-image: url(https://i.pinimg.com/originals/7f/a7/e6/7fa7e61967236ca00c2ed148a5cf03a9.gif);
+    background-position: 250px 40px;
+    background-size:contain;
+    color: black;
+    height: 730px;
+}
+
+
+
+footer {
+    background-color: #AF8F6F;
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+}
